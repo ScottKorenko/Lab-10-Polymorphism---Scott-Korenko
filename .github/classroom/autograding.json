@@ -1,0 +1,63 @@
+{
+  "tests": [
+    {
+      "name": "Compilation Check",
+      "setup": "mkdir build && cd build && cmake ..",
+      "run": "cd build && make",
+      "comparison": "include",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Circle",
+      "setup": "",
+      "run": "./build/circle",
+      "comparison": "include",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Cube",
+      "setup": "",
+      "run": "./build/cube",
+      "comparison": "include",
+      "timeout": 2,
+      "points": 2,
+      "extra": true
+    },
+    {
+      "name": "Square",
+      "setup": "",
+      "run": "./build/square",
+      "comparison": "include",
+      "timeout": 2,
+      "points": 2,
+      "extra": true
+    },
+    {
+      "name": "Rectangle",
+      "setup": "",
+      "run": "./build/rectangle",
+      "comparison": "include",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Sphere",
+      "setup": "",
+      "run": "./build/sphere",
+      "comparison": "include",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Negative",
+      "setup": "",
+      "run": "./build/negative",
+      "comparison": "include",
+      "timeout": 2,
+      "points": 2,
+      "extra": true
+    }
+  ]
+}
